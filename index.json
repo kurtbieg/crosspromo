@@ -4,10 +4,10 @@
   "playables": [
     {
       "id": "numbers-go-up",
-      "build": 3,
-      "path": "ads/numbers-go-up/3.html",
-      "bytes": 346930,
-      "sha256": "652a826ebf9567f86764d4c78e7469c5b82c153fc4af1f4797d1ad1cdfcfd92d"
+      "build": 4,
+      "path": "ads/numbers-go-up/4.html",
+      "bytes": 348555,
+      "sha256": "9f151035e759c9c25b7eccabf606b564f1fff7c7e2003c88f67abfa654dfb8cd"
     },
     {
       "id": "smove",
