@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "version": 1,
+  "hosts": [
+    {
+      "source": "squares",
+      "enabled": true,
+      "showInAirplaneMode": true,
+      "everyPaidOpportunity": 3,
+      "paidReplacementPercent": 100,
+      "minimumCompletedRuns": 0,
+      "secondsBetweenPromos": 0,
+      "maxPerSession": 0,
+      "destinations": [
+        {
+          "id": "numbers-go-up",
+          "playableId": "numbers-go-up",
+          "campaignId": "xp_sq_ngu_p1",
+          "weight": 100,
+          "iosAppId": "6827696284",
+          "iosProviderToken": "",
+          "iosCampaignToken": "xp_sq_ngu_p1",
+          "androidPackage": "com.sm.numbygg"
+        },
+        {
+          "id": "smove",
+          "playableId": "smove",
+          "campaignId": "xp_sq_sm_p1",
+          "weight": 0,
+          "iosAppId": "968818637",
+          "iosProviderToken": "",
+          "iosCampaignToken": "xp_sq_sm_p1",
+          "androidPackage": "com.sm.smove"
+        }
+      ]
+    },
+    {
+      "source": "numbers-go-up",
+      "enabled": true,
+      "showInAirplaneMode": true,
+      "everyPaidOpportunity": 2,
+      "paidReplacementPercent": 100,
+      "minimumCompletedRuns": 0,
+      "secondsBetweenPromos": 0,
+      "maxPerSession": 0,
+      "destinations": [
+        {
+          "id": "squares",
+          "playableId": "squares",
+          "campaignId": "xp_ngu_sq_p1",
+          "weight": 100,
+          "iosAppId": "1126104973",
+          "iosProviderToken": "",
+          "iosCampaignToken": "xp_ngu_sq_p1",
+          "androidPackage": "com.sm.squares"
+        },
+        {
+          "id": "smove",
+          "playableId": "smove",
+          "campaignId": "xp_ngu_sm_p1",
+          "weight": 0,
+          "iosAppId": "968818637",
+          "iosProviderToken": "",
+          "iosCampaignToken": "xp_ngu_sm_p1",
+          "androidPackage": "com.sm.smove"
+        }
+      ]
+    },
+    {
+      "source": "smove",
+      "enabled": false,
+      "showInAirplaneMode": true,
+      "everyPaidOpportunity": 3,
+      "paidReplacementPercent": 100,
+      "minimumCompletedRuns": 0,
+      "secondsBetweenPromos": 0,
+      "maxPerSession": 0,
+      "destinations": [
+        {
+          "id": "squares",
+          "playableId": "squares",
+          "campaignId": "xp_sm_sq_p1",
+          "weight": 0,
+          "iosAppId": "1126104973",
+          "iosProviderToken": "",
+          "iosCampaignToken": "xp_sm_sq_p1",
+          "androidPackage": "com.sm.squares"
+        },
+        {
+          "id": "numbers-go-up",
+          "playableId": "numbers-go-up",
+          "campaignId": "xp_sm_ngu_p1",
+          "weight": 0,
+          "iosAppId": "6827696284",
+          "iosProviderToken": "",
+          "iosCampaignToken": "xp_sm_ngu_p1",
+          "androidPackage": "com.sm.numbygg"
+        }
+      ]
+    }
+  ]
+}
